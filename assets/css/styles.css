@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*declaraciones para texto*/
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 3px 4px black;
+    text-align: right;
+    color: white;
+    /*eje x eje y difuminar y color*/
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#proxima-charla {
+    background: #A4452C;
+    padding: 100PX;
+    color: white;
+
+}
+
+/* padding: 3rem todosLados */
+/* padding: eje-x    eje-y */
+/* padding: arriba derecha abajo izquierda */
+
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+
+.wrapper img {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrapper .texto {
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 4%;
+}
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icono svg {
+    width: 2rem;
+    fill: brown;
+}
+
+/*reglas para footer*/
+.open-sans-footer {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+/*tamaño icono*/
+  .footer i {
+    font-size: 2rem;
+  }
+  
